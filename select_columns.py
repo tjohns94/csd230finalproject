@@ -1,6 +1,6 @@
 ########################################################
-# Description: This script is used to explore the data #
-# in the CSV files.                                    #
+# Description: This script is used to create a new CSV #
+# file with selected columns.                          #
 ########################################################
 
 # Import libraries
@@ -17,5 +17,5 @@ for year in years:
     temp_df = pd.read_csv(file_path, encoding='cp949', usecols=['기준년도', '연령대코드(5세단위)', '허리둘레', '체중(5kg단위)', '청력(좌)', '청력(우)', '시력(좌)', '시력(우)'])
     age_wwhs = pd.concat([age_wwhs, temp_df])
 
-# Display the DataFrame
-print(age_wwhs.head())
+# Save the DataFrame into a single CSV file
+age_wwhs.to_csv('./data/age_wwhs.csv', index=False, encoding='cp949')
