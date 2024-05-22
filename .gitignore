@@ -9,3 +9,5 @@ data/국민건강보험공단_건강검진정보_2020.csv
 data/국민건강보험공단_건강검진정보_2021.csv
 data/국민건강보험공단_건강검진정보_2022.csv
 age_wwhs.csv
+data/nhis_data_all.csv
+data/nhis_data_[a-z][a-z].csv
