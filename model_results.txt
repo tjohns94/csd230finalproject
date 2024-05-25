@@ -1,0 +1,1199 @@
+Results for Feature: age_code
+================================================================================
+Logistic Regression Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6343
+    recall: 0.9652
+    f1-score: 0.7655
+    support: 62763.0000
+  Class 1:
+    precision: 0.3849
+    recall: 0.0581
+    f1-score: 0.1010
+    support: 29756.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7481.0000
+  accuracy: 0.6231
+  Class macro avg:
+    precision: 0.3397
+    recall: 0.3411
+    f1-score: 0.2888
+    support: 100000.0000
+  Class weighted avg:
+    precision: 0.5126
+    recall: 0.6231
+    f1-score: 0.5105
+    support: 100000.0000
+
+Confusion Matrix:
+[[60579  2184     0]
+ [28026  1730     0]
+ [ 6900   581     0]]
+--------------------------------------------------------------------------------
+Decision Tree Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6276
+    recall: 1.0000
+    f1-score: 0.7712
+    support: 62763.0000
+  Class 1:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 29756.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7481.0000
+  accuracy: 0.6276
+  Class macro avg:
+    precision: 0.2092
+    recall: 0.3333
+    f1-score: 0.2571
+    support: 100000.0000
+  Class weighted avg:
+    precision: 0.3939
+    recall: 0.6276
+    f1-score: 0.4840
+    support: 100000.0000
+
+Confusion Matrix:
+[[62763     0     0]
+ [29756     0     0]
+ [ 7481     0     0]]
+--------------------------------------------------------------------------------
+Random Forest Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6276
+    recall: 1.0000
+    f1-score: 0.7712
+    support: 62763.0000
+  Class 1:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 29756.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7481.0000
+  accuracy: 0.6276
+  Class macro avg:
+    precision: 0.2092
+    recall: 0.3333
+    f1-score: 0.2571
+    support: 100000.0000
+  Class weighted avg:
+    precision: 0.3939
+    recall: 0.6276
+    f1-score: 0.4840
+    support: 100000.0000
+
+Confusion Matrix:
+[[62763     0     0]
+ [29756     0     0]
+ [ 7481     0     0]]
+--------------------------------------------------------------------------------
+================================================================================
+
+Results for Feature: total_cholesterol
+================================================================================
+Logistic Regression Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6318
+    recall: 0.9999
+    f1-score: 0.7743
+    support: 42313.0000
+  Class 1:
+    precision: 0.3333
+    recall: 0.0001
+    f1-score: 0.0002
+    support: 19592.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 5073.0000
+  accuracy: 0.6317
+  Class macro avg:
+    precision: 0.3217
+    recall: 0.3333
+    f1-score: 0.2582
+    support: 66978.0000
+  Class weighted avg:
+    precision: 0.4966
+    recall: 0.6317
+    f1-score: 0.4892
+    support: 66978.0000
+
+Confusion Matrix:
+[[42310     3     0]
+ [19590     2     0]
+ [ 5072     1     0]]
+--------------------------------------------------------------------------------
+Decision Tree Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6323
+    recall: 0.9982
+    f1-score: 0.7742
+    support: 42313.0000
+  Class 1:
+    precision: 0.4172
+    recall: 0.0035
+    f1-score: 0.0069
+    support: 19592.0000
+  Class 2:
+    precision: 0.1429
+    recall: 0.0004
+    f1-score: 0.0008
+    support: 5073.0000
+  accuracy: 0.6317
+  Class macro avg:
+    precision: 0.3974
+    recall: 0.3340
+    f1-score: 0.2606
+    support: 66978.0000
+  Class weighted avg:
+    precision: 0.5323
+    recall: 0.6317
+    f1-score: 0.4912
+    support: 66978.0000
+
+Confusion Matrix:
+[[42238    66     9]
+ [19521    68     3]
+ [ 5042    29     2]]
+--------------------------------------------------------------------------------
+Random Forest Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6323
+    recall: 0.9980
+    f1-score: 0.7742
+    support: 42313.0000
+  Class 1:
+    precision: 0.3977
+    recall: 0.0036
+    f1-score: 0.0071
+    support: 19592.0000
+  Class 2:
+    precision: 0.2000
+    recall: 0.0008
+    f1-score: 0.0016
+    support: 5073.0000
+  accuracy: 0.6316
+  Class macro avg:
+    precision: 0.4100
+    recall: 0.3341
+    f1-score: 0.2609
+    support: 66978.0000
+  Class weighted avg:
+    precision: 0.5310
+    recall: 0.6316
+    f1-score: 0.4913
+    support: 66978.0000
+
+Confusion Matrix:
+[[42228    73    12]
+ [19518    70     4]
+ [ 5036    33     4]]
+--------------------------------------------------------------------------------
+================================================================================
+
+Results for Feature: triglycerides
+================================================================================
+Logistic Regression Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6401
+    recall: 0.9764
+    f1-score: 0.7733
+    support: 42361.0000
+  Class 1:
+    precision: 0.3829
+    recall: 0.0448
+    f1-score: 0.0802
+    support: 19615.0000
+  Class 2:
+    precision: 0.2500
+    recall: 0.0034
+    f1-score: 0.0067
+    support: 5003.0000
+  accuracy: 0.6309
+  Class macro avg:
+    precision: 0.4243
+    recall: 0.3415
+    f1-score: 0.2867
+    support: 66979.0000
+  Class weighted avg:
+    precision: 0.5357
+    recall: 0.6309
+    f1-score: 0.5130
+    support: 66979.0000
+
+Confusion Matrix:
+[[41363   975    23]
+ [18709   878    28]
+ [ 4546   440    17]]
+--------------------------------------------------------------------------------
+Decision Tree Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6363
+    recall: 0.9868
+    f1-score: 0.7737
+    support: 42361.0000
+  Class 1:
+    precision: 0.3760
+    recall: 0.0230
+    f1-score: 0.0434
+    support: 19615.0000
+  Class 2:
+    precision: 0.2658
+    recall: 0.0042
+    f1-score: 0.0083
+    support: 5003.0000
+  accuracy: 0.6312
+  Class macro avg:
+    precision: 0.4261
+    recall: 0.3380
+    f1-score: 0.2751
+    support: 66979.0000
+  Class weighted avg:
+    precision: 0.5324
+    recall: 0.6312
+    f1-score: 0.5027
+    support: 66979.0000
+
+Confusion Matrix:
+[[41803   533    25]
+ [19130   452    33]
+ [ 4765   217    21]]
+--------------------------------------------------------------------------------
+Random Forest Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6367
+    recall: 0.9845
+    f1-score: 0.7733
+    support: 42361.0000
+  Class 1:
+    precision: 0.3748
+    recall: 0.0264
+    f1-score: 0.0493
+    support: 19615.0000
+  Class 2:
+    precision: 0.2604
+    recall: 0.0050
+    f1-score: 0.0098
+    support: 5003.0000
+  accuracy: 0.6308
+  Class macro avg:
+    precision: 0.4240
+    recall: 0.3386
+    f1-score: 0.2775
+    support: 66979.0000
+  Class weighted avg:
+    precision: 0.5319
+    recall: 0.6308
+    f1-score: 0.5043
+    support: 66979.0000
+
+Confusion Matrix:
+[[41706   620    35]
+ [19061   518    36]
+ [ 4734   244    25]]
+--------------------------------------------------------------------------------
+================================================================================
+
+Results for Feature: hdl_cholesterol
+================================================================================
+Logistic Regression Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6295
+    recall: 1.0000
+    f1-score: 0.7726
+    support: 42161.0000
+  Class 1:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 19653.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 5164.0000
+  accuracy: 0.6295
+  Class macro avg:
+    precision: 0.2098
+    recall: 0.3333
+    f1-score: 0.2575
+    support: 66978.0000
+  Class weighted avg:
+    precision: 0.3962
+    recall: 0.6295
+    f1-score: 0.4863
+    support: 66978.0000
+
+Confusion Matrix:
+[[42161     0     0]
+ [19653     0     0]
+ [ 5164     0     0]]
+--------------------------------------------------------------------------------
+Decision Tree Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6296
+    recall: 0.9995
+    f1-score: 0.7725
+    support: 42161.0000
+  Class 1:
+    precision: 0.2000
+    recall: 0.0004
+    f1-score: 0.0007
+    support: 19653.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 5164.0000
+  accuracy: 0.6293
+  Class macro avg:
+    precision: 0.2765
+    recall: 0.3333
+    f1-score: 0.2578
+    support: 66978.0000
+  Class weighted avg:
+    precision: 0.4550
+    recall: 0.6293
+    f1-score: 0.4865
+    support: 66978.0000
+
+Confusion Matrix:
+[[42142    17     2]
+ [19644     7     2]
+ [ 5153    11     0]]
+--------------------------------------------------------------------------------
+Random Forest Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6296
+    recall: 0.9995
+    f1-score: 0.7726
+    support: 42161.0000
+  Class 1:
+    precision: 0.2632
+    recall: 0.0005
+    f1-score: 0.0010
+    support: 19653.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 5164.0000
+  accuracy: 0.6293
+  Class macro avg:
+    precision: 0.2976
+    recall: 0.3334
+    f1-score: 0.2579
+    support: 66978.0000
+  Class weighted avg:
+    precision: 0.4735
+    recall: 0.6293
+    f1-score: 0.4866
+    support: 66978.0000
+
+Confusion Matrix:
+[[42142    17     2]
+ [19641    10     2]
+ [ 5153    11     0]]
+--------------------------------------------------------------------------------
+================================================================================
+
+Results for Feature: ldl_cholesterol
+================================================================================
+Logistic Regression Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6281
+    recall: 0.9999
+    f1-score: 0.7715
+    support: 41743.0000
+  Class 1:
+    precision: 0.5000
+    recall: 0.0003
+    f1-score: 0.0005
+    support: 19639.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 5081.0000
+  accuracy: 0.6281
+  Class macro avg:
+    precision: 0.3760
+    recall: 0.3334
+    f1-score: 0.2574
+    support: 66463.0000
+  Class weighted avg:
+    precision: 0.5422
+    recall: 0.6281
+    f1-score: 0.4847
+    support: 66463.0000
+
+Confusion Matrix:
+[[41739     4     0]
+ [19634     5     0]
+ [ 5080     1     0]]
+--------------------------------------------------------------------------------
+Decision Tree Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6285
+    recall: 0.9984
+    f1-score: 0.7714
+    support: 41743.0000
+  Class 1:
+    precision: 0.3071
+    recall: 0.0022
+    f1-score: 0.0043
+    support: 19639.0000
+  Class 2:
+    precision: 0.3333
+    recall: 0.0012
+    f1-score: 0.0024
+    support: 5081.0000
+  accuracy: 0.6278
+  Class macro avg:
+    precision: 0.4230
+    recall: 0.3339
+    f1-score: 0.2594
+    support: 66463.0000
+  Class weighted avg:
+    precision: 0.5110
+    recall: 0.6278
+    f1-score: 0.4860
+    support: 66463.0000
+
+Confusion Matrix:
+[[41675    62     6]
+ [19590    43     6]
+ [ 5040    35     6]]
+--------------------------------------------------------------------------------
+Random Forest Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6286
+    recall: 0.9982
+    f1-score: 0.7714
+    support: 41743.0000
+  Class 1:
+    precision: 0.3203
+    recall: 0.0025
+    f1-score: 0.0050
+    support: 19639.0000
+  Class 2:
+    precision: 0.2963
+    recall: 0.0016
+    f1-score: 0.0031
+    support: 5081.0000
+  accuracy: 0.6278
+  Class macro avg:
+    precision: 0.4151
+    recall: 0.3341
+    f1-score: 0.2598
+    support: 66463.0000
+  Class weighted avg:
+    precision: 0.5121
+    recall: 0.6278
+    f1-score: 0.4862
+    support: 66463.0000
+
+Confusion Matrix:
+[[41668    66     9]
+ [19580    49    10]
+ [ 5035    38     8]]
+--------------------------------------------------------------------------------
+================================================================================
+
+Results for Feature: systolic_bp
+================================================================================
+Logistic Regression Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6368
+    recall: 0.9693
+    f1-score: 0.7686
+    support: 62631.0000
+  Class 1:
+    precision: 0.4000
+    recall: 0.0592
+    f1-score: 0.1032
+    support: 29702.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7400.0000
+  accuracy: 0.6263
+  Class macro avg:
+    precision: 0.3456
+    recall: 0.3428
+    f1-score: 0.2906
+    support: 99733.0000
+  Class weighted avg:
+    precision: 0.5190
+    recall: 0.6263
+    f1-score: 0.5134
+    support: 99733.0000
+
+Confusion Matrix:
+[[60707  1924     0]
+ [27942  1759     1]
+ [ 6686   714     0]]
+--------------------------------------------------------------------------------
+Decision Tree Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6314
+    recall: 0.9885
+    f1-score: 0.7706
+    support: 62631.0000
+  Class 1:
+    precision: 0.4055
+    recall: 0.0230
+    f1-score: 0.0435
+    support: 29702.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7400.0000
+  accuracy: 0.6276
+  Class macro avg:
+    precision: 0.3456
+    recall: 0.3371
+    f1-score: 0.2714
+    support: 99733.0000
+  Class weighted avg:
+    precision: 0.5173
+    recall: 0.6276
+    f1-score: 0.4969
+    support: 99733.0000
+
+Confusion Matrix:
+[[61910   719     2]
+ [29017   682     3]
+ [ 7119   281     0]]
+--------------------------------------------------------------------------------
+Random Forest Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6313
+    recall: 0.9889
+    f1-score: 0.7706
+    support: 62631.0000
+  Class 1:
+    precision: 0.4067
+    recall: 0.0221
+    f1-score: 0.0419
+    support: 29702.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7400.0000
+  accuracy: 0.6276
+  Class macro avg:
+    precision: 0.3460
+    recall: 0.3370
+    f1-score: 0.2708
+    support: 99733.0000
+  Class weighted avg:
+    precision: 0.5176
+    recall: 0.6276
+    f1-score: 0.4964
+    support: 99733.0000
+
+Confusion Matrix:
+[[61938   690     3]
+ [29041   656     5]
+ [ 7133   267     0]]
+--------------------------------------------------------------------------------
+================================================================================
+
+Results for Feature: diastolic_bp
+================================================================================
+Logistic Regression Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6310
+    recall: 0.9832
+    f1-score: 0.7687
+    support: 62558.0000
+  Class 1:
+    precision: 0.4038
+    recall: 0.0306
+    f1-score: 0.0570
+    support: 29723.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7452.0000
+  accuracy: 0.6259
+  Class macro avg:
+    precision: 0.3449
+    recall: 0.3380
+    f1-score: 0.2752
+    support: 99733.0000
+  Class weighted avg:
+    precision: 0.5161
+    recall: 0.6259
+    f1-score: 0.4991
+    support: 99733.0000
+
+Confusion Matrix:
+[[61508  1050     0]
+ [28812   911     0]
+ [ 7157   295     0]]
+--------------------------------------------------------------------------------
+Decision Tree Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6279
+    recall: 0.9980
+    f1-score: 0.7708
+    support: 62558.0000
+  Class 1:
+    precision: 0.4455
+    recall: 0.0045
+    f1-score: 0.0090
+    support: 29723.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7452.0000
+  accuracy: 0.6274
+  Class macro avg:
+    precision: 0.3578
+    recall: 0.3342
+    f1-score: 0.2599
+    support: 99733.0000
+  Class weighted avg:
+    precision: 0.5266
+    recall: 0.6274
+    f1-score: 0.4862
+    support: 99733.0000
+
+Confusion Matrix:
+[[62433   125     0]
+ [29588   135     0]
+ [ 7409    43     0]]
+--------------------------------------------------------------------------------
+Random Forest Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6279
+    recall: 0.9980
+    f1-score: 0.7708
+    support: 62558.0000
+  Class 1:
+    precision: 0.4412
+    recall: 0.0045
+    f1-score: 0.0090
+    support: 29723.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7452.0000
+  accuracy: 0.6273
+  Class macro avg:
+    precision: 0.3564
+    recall: 0.3342
+    f1-score: 0.2599
+    support: 99733.0000
+  Class weighted avg:
+    precision: 0.5253
+    recall: 0.6273
+    f1-score: 0.4862
+    support: 99733.0000
+
+Confusion Matrix:
+[[62430   128     0]
+ [29588   135     0]
+ [ 7409    43     0]]
+--------------------------------------------------------------------------------
+================================================================================
+
+Results for Feature: serum_creatinine
+================================================================================
+Logistic Regression Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6259
+    recall: 0.9979
+    f1-score: 0.7693
+    support: 62399.0000
+  Class 1:
+    precision: 0.2739
+    recall: 0.0022
+    f1-score: 0.0044
+    support: 29724.0000
+  Class 2:
+    precision: 0.1667
+    recall: 0.0001
+    f1-score: 0.0003
+    support: 7605.0000
+  accuracy: 0.6251
+  Class macro avg:
+    precision: 0.3555
+    recall: 0.3334
+    f1-score: 0.2580
+    support: 99728.0000
+  Class weighted avg:
+    precision: 0.4860
+    recall: 0.6251
+    f1-score: 0.4827
+    support: 99728.0000
+
+Confusion Matrix:
+[[62270   126     3]
+ [29656    66     2]
+ [ 7555    49     1]]
+--------------------------------------------------------------------------------
+Decision Tree Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6261
+    recall: 0.9991
+    f1-score: 0.7698
+    support: 62399.0000
+  Class 1:
+    precision: 0.4014
+    recall: 0.0019
+    f1-score: 0.0038
+    support: 29724.0000
+  Class 2:
+    precision: 0.4167
+    recall: 0.0007
+    f1-score: 0.0013
+    support: 7605.0000
+  accuracy: 0.6258
+  Class macro avg:
+    precision: 0.4814
+    recall: 0.3339
+    f1-score: 0.2583
+    support: 99728.0000
+  Class weighted avg:
+    precision: 0.5432
+    recall: 0.6258
+    f1-score: 0.4829
+    support: 99728.0000
+
+Confusion Matrix:
+[[62344    52     3]
+ [29663    57     4]
+ [ 7567    33     5]]
+--------------------------------------------------------------------------------
+Random Forest Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6261
+    recall: 0.9990
+    f1-score: 0.7698
+    support: 62399.0000
+  Class 1:
+    precision: 0.3826
+    recall: 0.0019
+    f1-score: 0.0038
+    support: 29724.0000
+  Class 2:
+    precision: 0.4000
+    recall: 0.0008
+    f1-score: 0.0016
+    support: 7605.0000
+  accuracy: 0.6257
+  Class macro avg:
+    precision: 0.4696
+    recall: 0.3339
+    f1-score: 0.2584
+    support: 99728.0000
+  Class weighted avg:
+    precision: 0.5363
+    recall: 0.6257
+    f1-score: 0.4829
+    support: 99728.0000
+
+Confusion Matrix:
+[[62339    56     4]
+ [29662    57     5]
+ [ 7563    36     6]]
+--------------------------------------------------------------------------------
+================================================================================
+
+Results for Feature: weight
+================================================================================
+Logistic Regression Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6291
+    recall: 0.9898
+    f1-score: 0.7693
+    support: 62698.0000
+  Class 1:
+    precision: 0.3900
+    recall: 0.0176
+    f1-score: 0.0338
+    support: 29760.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7533.0000
+  accuracy: 0.6259
+  Class macro avg:
+    precision: 0.3397
+    recall: 0.3358
+    f1-score: 0.2677
+    support: 99991.0000
+  Class weighted avg:
+    precision: 0.5106
+    recall: 0.6259
+    f1-score: 0.4924
+    support: 99991.0000
+
+Confusion Matrix:
+[[62057   641     0]
+ [29235   525     0]
+ [ 7353   180     0]]
+--------------------------------------------------------------------------------
+Decision Tree Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6271
+    recall: 0.9994
+    f1-score: 0.7707
+    support: 62698.0000
+  Class 1:
+    precision: 0.3333
+    recall: 0.0009
+    f1-score: 0.0018
+    support: 29760.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7533.0000
+  accuracy: 0.6269
+  Class macro avg:
+    precision: 0.3202
+    recall: 0.3334
+    f1-score: 0.2575
+    support: 99991.0000
+  Class weighted avg:
+    precision: 0.4925
+    recall: 0.6269
+    f1-score: 0.4838
+    support: 99991.0000
+
+Confusion Matrix:
+[[62658    40     0]
+ [29733    27     0]
+ [ 7519    14     0]]
+--------------------------------------------------------------------------------
+Random Forest Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6271
+    recall: 0.9994
+    f1-score: 0.7707
+    support: 62698.0000
+  Class 1:
+    precision: 0.3333
+    recall: 0.0009
+    f1-score: 0.0018
+    support: 29760.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7533.0000
+  accuracy: 0.6269
+  Class macro avg:
+    precision: 0.3202
+    recall: 0.3334
+    f1-score: 0.2575
+    support: 99991.0000
+  Class weighted avg:
+    precision: 0.4925
+    recall: 0.6269
+    f1-score: 0.4838
+    support: 99991.0000
+
+Confusion Matrix:
+[[62658    40     0]
+ [29733    27     0]
+ [ 7519    14     0]]
+--------------------------------------------------------------------------------
+================================================================================
+
+Results for Feature: waist_circum
+================================================================================
+Logistic Regression Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6399
+    recall: 0.9665
+    f1-score: 0.7700
+    support: 62913.0000
+  Class 1:
+    precision: 0.4020
+    recall: 0.0671
+    f1-score: 0.1149
+    support: 29599.0000
+  Class 2:
+    precision: 0.4615
+    recall: 0.0008
+    f1-score: 0.0016
+    support: 7458.0000
+  accuracy: 0.6281
+  Class macro avg:
+    precision: 0.5011
+    recall: 0.3448
+    f1-score: 0.2955
+    support: 99970.0000
+  Class weighted avg:
+    precision: 0.5562
+    recall: 0.6281
+    f1-score: 0.5187
+    support: 99970.0000
+
+Confusion Matrix:
+[[60805  2103     5]
+ [27612  1985     2]
+ [ 6602   850     6]]
+--------------------------------------------------------------------------------
+Decision Tree Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6326
+    recall: 0.9895
+    f1-score: 0.7718
+    support: 62913.0000
+  Class 1:
+    precision: 0.4270
+    recall: 0.0224
+    f1-score: 0.0426
+    support: 29599.0000
+  Class 2:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 7458.0000
+  accuracy: 0.6293
+  Class macro avg:
+    precision: 0.3532
+    recall: 0.3373
+    f1-score: 0.2715
+    support: 99970.0000
+  Class weighted avg:
+    precision: 0.5245
+    recall: 0.6293
+    f1-score: 0.4983
+    support: 99970.0000
+
+Confusion Matrix:
+[[62251   655     7]
+ [28931   664     4]
+ [ 7222   236     0]]
+--------------------------------------------------------------------------------
+Random Forest Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6328
+    recall: 0.9885
+    f1-score: 0.7716
+    support: 62913.0000
+  Class 1:
+    precision: 0.4221
+    recall: 0.0239
+    f1-score: 0.0452
+    support: 29599.0000
+  Class 2:
+    precision: 0.1111
+    recall: 0.0003
+    f1-score: 0.0005
+    support: 7458.0000
+  accuracy: 0.6292
+  Class macro avg:
+    precision: 0.3887
+    recall: 0.3376
+    f1-score: 0.2725
+    support: 99970.0000
+  Class weighted avg:
+    precision: 0.5315
+    recall: 0.6292
+    f1-score: 0.4990
+    support: 99970.0000
+
+Confusion Matrix:
+[[62191   712    10]
+ [28886   707     6]
+ [ 7200   256     2]]
+--------------------------------------------------------------------------------
+================================================================================
+
+Results for Feature: Combined Features
+================================================================================
+Logistic Regression Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6638
+    recall: 0.9315
+    f1-score: 0.7752
+    support: 41929.0000
+  Class 1:
+    precision: 0.4299
+    recall: 0.1614
+    f1-score: 0.2346
+    support: 19504.0000
+  Class 2:
+    precision: 0.3509
+    recall: 0.0200
+    f1-score: 0.0378
+    support: 5011.0000
+  accuracy: 0.6367
+  Class macro avg:
+    precision: 0.4815
+    recall: 0.3709
+    f1-score: 0.3492
+    support: 66444.0000
+  Class weighted avg:
+    precision: 0.5715
+    recall: 0.6367
+    f1-score: 0.5609
+    support: 66444.0000
+
+Confusion Matrix:
+[[39056  2801    72]
+ [16244  3147   113]
+ [ 3538  1373   100]]
+--------------------------------------------------------------------------------
+Decision Tree Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6764
+    recall: 0.6604
+    f1-score: 0.6683
+    support: 41929.0000
+  Class 1:
+    precision: 0.3279
+    recall: 0.3390
+    f1-score: 0.3334
+    support: 19504.0000
+  Class 2:
+    precision: 0.1501
+    recall: 0.1600
+    f1-score: 0.1549
+    support: 5011.0000
+  accuracy: 0.5283
+  Class macro avg:
+    precision: 0.3848
+    recall: 0.3865
+    f1-score: 0.3855
+    support: 66444.0000
+  Class weighted avg:
+    precision: 0.5344
+    recall: 0.5283
+    f1-score: 0.5313
+    support: 66444.0000
+
+Confusion Matrix:
+[[27691 11661  2577]
+ [10929  6612  1963]
+ [ 2320  1889   802]]
+--------------------------------------------------------------------------------
+Random Forest Results:
+--------------------------------------------------------------------------------
+Classification Report:
+  Class 0:
+    precision: 0.6700
+    recall: 0.8987
+    f1-score: 0.7677
+    support: 41929.0000
+  Class 1:
+    precision: 0.4073
+    recall: 0.2015
+    f1-score: 0.2696
+    support: 19504.0000
+  Class 2:
+    precision: 0.3188
+    recall: 0.0349
+    f1-score: 0.0629
+    support: 5011.0000
+  accuracy: 0.6289
+  Class macro avg:
+    precision: 0.4654
+    recall: 0.3784
+    f1-score: 0.3667
+    support: 66444.0000
+  Class weighted avg:
+    precision: 0.5664
+    recall: 0.6289
+    f1-score: 0.5683
+    support: 66444.0000
+
+Confusion Matrix:
+[[37683  4095   151]
+ [15351  3930   223]
+ [ 3213  1623   175]]
+--------------------------------------------------------------------------------
+================================================================================
+
